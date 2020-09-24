@@ -1,3 +1,5 @@
+###Welcome!
+
 This is my **first ever** README file!
 
 I will use this opportunity to show the crest of my favourite football club.
@@ -10,12 +12,13 @@ To not miss any team news, visit the Arsenal FC Homepage [here](https://www.arse
 
 #### Important people in Arsenals history
 
-* Arsène Wenger
+* **Arsène Wenger**
   * First team coach 1996-2018
   * Favourite quotes:
-    > I tried to watch the Tottenham match on television in my hotel yesterday, but I fell asleep.  
+    > I tried to watch the Tottenham match on television in my hotel yesterday, but I fell asleep.
+    
     > If you eat caviar every day it's difficult to return to sausages.
-* Thierry Henry
+* **Thierry Henry**
   * World Cup and Euros champion
   * Best player in Premier League history
 
