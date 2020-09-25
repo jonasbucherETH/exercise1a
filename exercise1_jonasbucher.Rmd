@@ -1,0 +1,43 @@
+---
+title: "Exercise 1 - STA426"
+author: "Jonas Bucher"
+date: "24.09.2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+## Exercise 1b -- 3.
+#### Generate 100 samples from a log-normal distribution
+```{r samples}
+lognSamples <- rlnorm(100, 1, 0.5)
+```
+
+
+#### Report the mean and variance of the distribution
+```{r print mean var}
+print(paste("The mean of the distribution is:", mean(lognSamples)))
+print(paste("The variance of the distribution is:", var(lognSamples)))
+```
+
+#### Create a histogram of the distribution
+```{r hist normal, message=FALSE}
+ggplot() +
+  geom_histogram(aes(x=lognSamples)) +
+  labs(title="Distribution") +
+  xlab("value") +
+  theme_bw()
+```
+
+#### Create a histogram of the distribution on the log-scale
+```{r hist log, message=FALSE}
+ggplot() +
+  geom_histogram(aes(x=log(lognSamples))) +
+  labs(title="Log-scale Distribution") +
+  xlab("log-scale value") +
+  theme_bw()
+```
+
